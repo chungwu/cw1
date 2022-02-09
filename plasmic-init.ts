@@ -7,8 +7,8 @@ import { RedirectIf } from "./components/CodeComponents/LogicComponents";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
-      id: "i6YZmFxPJB69NEUgdf79ap",  // ID of a project you are using
-      token: "kQsz3J86zkb5oYUaPWjxmbmtKjFircpB7MPCoME9hDQfHKkXphgJMP9qMwmefNQqHJvyUwovnc4D3Oq3iUQ"  // API token for that project
+      id: "gJAxVqTvmoMPrR2vvieW7B",  // ID of a project you are using
+      token: "PlPDWsml4ahAwIGv3nYjucGP0HxOgERtCClOlaBDWuFFOUGKl6XlExH3HWWJaehlV1Kx69dr8Qmohx9CQRw2CA"  // API token for that project
     }
   ],
   // Fetches the latest revisions, whether or not they were unpublished!
