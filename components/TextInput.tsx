@@ -10,7 +10,7 @@ interface TextInputProps extends DefaultTextInputProps {
 }
 
 function TextInput_(props: TextInputProps, ref: TextInputRef) {
-  const { plasmicProps } = PlasmicTextInput.useBehavior<TextInputProps>(
+  const { plasmicProps } = PlasmicTextInput.useBehavior<any>(
     props,
     ref
   );
