@@ -1,9 +1,8 @@
-import React, { ReactElement, useContext } from "react";
-import { ReactNode } from "react";
-import { getPropValue } from "./DatabaseComponents";
+import { Modal } from "antd";
 import 'antd/dist/antd.css';
-import { Modal, Row } from "antd";
-import { DeleteButtonContext, RowContext, SupabaseMutationContext } from "./Contexts";
+import React, { ReactNode, useContext } from "react";
+import { DeleteButtonContext, SupabaseMutationContext } from "./Contexts";
+import { getPropValue } from "./DatabaseComponents";
 
 interface SupabaseEditButtonProps {
   children?: ReactNode;

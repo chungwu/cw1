@@ -1,9 +1,5 @@
-import { repeatedElement } from '@plasmicapp/host';
-import { User } from '@supabase/gotrue-js';
-import React, { ReactNode, useContext, useRef, useState } from 'react';
-import { supabase } from '../../api';
-import L from "lodash";
-import { useForm, Controller, SubmitHandler } from "react-hook-form";
+import React, { useContext } from 'react';
+import { useForm, Controller } from "react-hook-form";
 import { contextTable, FormContext, LogInContext, SupabaseMutationContext, SupabaseQueryContext, useAllContexts } from './Contexts';
 import { getContextAndField, getPropValue, isContextValueRef } from './DatabaseComponents';
 

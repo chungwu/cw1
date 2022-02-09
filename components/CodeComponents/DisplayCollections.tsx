@@ -1,4 +1,4 @@
-import { repeatedElement } from "@plasmicapp/host";
+import { repeatedElement } from "@plasmicapp/loader-nextjs";
 import { ReactNode, useContext } from "react";
 import { RowContext, SupabaseQueryContext } from "./Contexts";
 import { getPropValue } from "./DatabaseComponents";

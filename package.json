@@ -8,10 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.167",
-    "@plasmicapp/host": "^1.0.2",
     "@plasmicapp/loader-nextjs": "^1.0.55",
-    "@plasmicapp/react-web": "^0.2.91",
     "@supabase/supabase-js": "^1.29.4",
     "@types/lodash": "^4.14.178",
     "antd": "^4.18.5",

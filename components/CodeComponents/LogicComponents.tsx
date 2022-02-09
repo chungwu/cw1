@@ -1,10 +1,6 @@
-import { repeatedElement } from '@plasmicapp/host';
-import { User } from '@supabase/gotrue-js';
-import { string } from 'prop-types';
-import React, { ReactNode, useContext, useRef, useState } from 'react';
-import { supabase } from '../../api';
-import { contextTable, LogInContext, SupabaseMutationContext, SupabaseQueryContext, SupabaseUserSessionContext, useAllContexts } from './Contexts';
-import { getContextAndField, getPropValue, isContextValueRef } from './DatabaseComponents';
+import React, { ReactNode } from 'react';
+import { useAllContexts } from './Contexts';
+import { getContextAndField, isContextValueRef } from './DatabaseComponents';
 
 export interface RedirectIfProps {
   children?: ReactNode;

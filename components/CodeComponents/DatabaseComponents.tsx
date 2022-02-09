@@ -1,7 +1,5 @@
-import { repeatedElement } from '@plasmicapp/host';
 import { User } from '@supabase/gotrue-js';
-import { string } from 'prop-types';
-import React, { ReactNode, useContext, useRef, useState } from 'react';
+import React, { ReactNode, useContext } from 'react';
 import { supabase } from '../../api';
 import { contextTable, LogInContext, SupabaseMutationContext, SupabaseQueryContext, SupabaseUserSessionContext, useAllContexts } from './Contexts';
 
