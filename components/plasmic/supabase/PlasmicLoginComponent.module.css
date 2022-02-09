@@ -1,0 +1,279 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 10px;
+}
+.freeBox__dcMTl {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.text {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
+.h3 {
+  text-align: center;
+  width: auto;
+}
+.supabaseUserLogIn:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0px;
+  min-width: 0;
+}
+.supabaseUserLogInisSignUp:global(.__wab_instance) {
+  display: none;
+}
+.formContext__otUwM:global(.__wab_instance) {
+  max-width: 100%;
+}
+.freeBox__zp8FK {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__zp8FK > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 30px);
+  height: calc(100% + 30px);
+}
+.freeBox__zp8FK > :global(.__wab_flex-container) > *,
+.freeBox__zp8FK > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__zp8FK > :global(.__wab_flex-container) > picture > img,
+.freeBox__zp8FK
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 30px;
+}
+.formTextInput__eMH:global(.__wab_instance) {
+  max-width: 100%;
+}
+.textInput__rEdFq:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__cMLh {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__w4TPa {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.formTextInput__tVs2C:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.textInput__mrzkd:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__nTsmq {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__wU9Sj {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button__mHau6:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg___0LU1S {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__kUz0B {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.supabaseUserSignUp:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  display: none;
+}
+.supabaseUserSignUpisSignUp:global(.__wab_instance) {
+  display: flex;
+}
+.formContext__yCpkF:global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox___5Dfcn {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox___5Dfcn > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 30px);
+  height: calc(100% + 30px);
+}
+.freeBox___5Dfcn > :global(.__wab_flex-container) > *,
+.freeBox___5Dfcn > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___5Dfcn > :global(.__wab_flex-container) > picture > img,
+.freeBox___5Dfcn
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 30px;
+}
+.formTextInput___52P4R:global(.__wab_instance) {
+  max-width: 100%;
+}
+.textInput__y1W84:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg___9SSvW {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__pYu4A {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.formTextInput__v5Vk6:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.textInput__a3LG6:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__cj3Tj {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__aroyC {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button__h19Go:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__aZnrM {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__wQbDd {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.freeBox__eDx4W {
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
+  padding: 8px;
+}
+.freeBoxerror__eDx4WvTBec {
+  display: flex;
+}
+.slotTargetErrorMessage {
+  color: #ff0000;
+}
+.text__hoN0A {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  color: #ff0000;
+  min-width: 0;
+}
+.switchSignInOrSignUp2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  cursor: pointer;
+  padding: 8px;
+}
+.link___040 {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  cursor: pointer;
+}

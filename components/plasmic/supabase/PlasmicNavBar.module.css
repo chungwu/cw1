@@ -1,0 +1,83 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+.freeBox__aOu57 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.text__omPT {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
+.freeBox___46QuA {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBox__f1Ce5 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.text__ws9Vp {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
+.supabaseUserSession:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.supabaseTextField:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  font-weight: 700;
+}
+.supabaseUserLogOut:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__h8LiD {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___6GPqo {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
